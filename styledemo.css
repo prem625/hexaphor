@@ -1,0 +1,32 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+
+}
+
+.heading{
+  color: red;
+  height: 100px;
+  width: 100%;
+  background-color: lightgray;
+  border: 2px solid black;
+}
+
+.link{
+  color: blue;
+  text-decoration: none;
+ 
+
+  height: 100%;
+  width: 100%;
+}
+
+.division a {
+  color: green;
+  text-decoration: none;
+  border: 2px solid black;
+  height: 1000px;
+  width: 1000px;
+  background-color: lightblue;
+}

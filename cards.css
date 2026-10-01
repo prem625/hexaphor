@@ -1,0 +1,54 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.background{
+  background-image: url(./assets/IMG_6903.JPG);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+
+.background .cards{
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  width: 20%;
+  height: 50%;
+  background : rgba(0, 0, 0, 0.5);
+  border: 2px solid black;
+  border-radius: 20px;
+  flex-direction: column;
+
+  overflow: hidden;
+}
+
+.background .cards img{
+  width: 100%;
+  height: 50%;
+  object-fit: contain;
+}
+
+.background .cards .text{
+  color: white;
+  font-size: 2rem;
+  font-family: 'Courier New', Courier, monospace;
+  text-align: center;
+}
+
+.background .cards .paragraph{
+  color: white;
+  font-size: 1rem;
+  font-family: 'Courier New', Courier, monospace;
+  text-align: center;
+  padding: 10px;
+}
+
+

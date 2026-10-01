@@ -1,0 +1,32 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  display: flex;
+  width: 300px;
+
+  height: 300px;
+  background-color: #843535;
+
+  margin: 100px auto;
+  align-items: center;
+  justify-content: center;
+
+  border: 2px solid #ccc;
+
+  /* if display with flex direction column-reverse , align items and justify content shall work inversely */
+
+  flex-direction: column-reverse; /* row | row-reverse | column | column-reverse; */
+
+  /* overflow: hidden; */
+  /* overflow-x: auto; */
+  /* overflow: auto; */
+  /* overflow: scroll; */
+
+  /* justify-content: flex-start | flex-end | center | space-between | space-evenly | space-around; */
+  /* align-items: flex-start | flex-end | center | stretch; */
+
+}
