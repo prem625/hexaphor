@@ -1,0 +1,20 @@
+{
+  "name": "nod",
+  "version": "1.0.0",
+  "description": "hexaphor",
+  "homepage": "https://github.com/prem625/hexaphor#readme",
+  "bugs": {
+    "url": "https://github.com/prem625/hexaphor/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/prem625/hexaphor.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
