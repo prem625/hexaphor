@@ -372,8 +372,319 @@ let credit_score = 12;
 
 // let table_of = prompt("Enter a number to print its multiplication table:");
 
-let table_of = 5; // You can change this value to print the multiplication table of a different number
+// let table_of = 5; // You can change this value to print the multiplication table of a different number
 
-for (let i = 1; i <= 10; i++) { 
-  console.log(`${table_of} x ${i} = ${table_of * i}`);
+// for (let i = 1; i <= 10; i++) { 
+//   console.log(`${table_of} x ${i} = ${table_of * i}`);
+// }
+
+
+
+
+// function print_hi(){
+//   console.log("hi")
+// }
+
+// print_hi()
+
+
+// const print_hi = function (){
+//   console.log("hi hello")
+// }
+
+
+// print_hi()
+
+
+// const hello = () => {
+//   console.log("hello world")
+// }
+
+// hello()
+
+
+// const sum = (...variables) => {
+//   let sum = 0
+//   for(let i = 0 ; i < variables.length; i ++){
+//     sum += variables[i]
+//   }
+//   console.log(sum)
+// }
+
+// sum(12,2,3,4,1,6,5,4,5,5,6,)
+
+
+// return fumction
+// 
+//callback
+
+// iife 
+
+// (function () {
+//   console.log("console")
+// })()
+
+
+
+// let sum_gst = (...variables)=>{
+//   let sum = 0
+//   for(let i = 0 ; i < variables.length; i ++){
+//     sum += variables[i]
+//   }
+
+//   sum += sum*0.18
+//   return sum;
+// }
+
+// console.log(sum_gst(12,333,123,55,677,8,233,11))
+
+
+// const even_odd = (numb)=> {
+
+//   value = numb % 2 ? "even" : "odd";
+
+//   console.log(value)
+// }
+
+
+
+// -----------------------------array function ------------------
+
+
+// push pop shift unshift map filter find reduce
+
+// let elements = ["1" , 2, 4, "3"]
+
+// elements.push("5")
+
+// console.log(typeof elements)
+// console.log(elements)
+// elements.pop(0)// does not matter whatever index is fed , it will delete the last element
+
+// console.log(elements)
+
+// elements.shift(3) // similar , always delets the first one
+// console.log(elements)
+
+// elements.unshift(12)
+// console.log(elements)
+
+// let mapped  = elements.map(p => typeof p)
+
+// console.log(mapped)
+
+// let filtered = elements.filter((el) => {
+//   if (typeof el === "number") //;// gave an empty array 
+//     return el // removed , gave error , okay gave error cuz it lacked block{}
+// })
+
+// console.log(filtered)
+
+
+// // find gives you the first element it matches
+
+// let result = elements.find((el) => typeof el  === "string")
+
+// console.log(result)
+
+
+
+
+// reduce
+
+
+
+
+// -------------------Object method ---------------
+
+let user = {
+  name : "Sai" ,
+  age : 21,
+  email : "saipremananda@outlook.com"
 }
+
+// Object. [keys , values , entries ,assign , freeze , seal ,create ] 
+// user.hasOwnProperty("key") // checks if key exists
+//delete user.key , that key is discarded
+
+// console.log(Object.keys(user))
+// console.log(Object.values(user))
+// console.log(Object.entries(user))
+
+
+//assign copy object
+
+// let Obj = Object.assign({} , user)
+
+// console.log(Obj)
+
+//freeze , wont let you update or add anything to the Object
+
+// Object.freeze(user)
+
+// user.name = "Ram"
+// user.phone = 9090909090
+
+// console.log(user) // no change cuz freezed
+
+
+// Object.seal(user)
+
+// seal , you can update but no addition or deletion anything
+
+// user.name = "Ram"
+
+// user.phone = 909090
+ 
+// console.log(user) // no addition of new keys
+
+// console.log(user.hasOwnProperty("name"))
+// console.log(user.hasOwnProperty("phone"))
+
+// delete user.name
+
+// console.log(user)
+
+// let another = Object.create(Object)
+
+// console.log(another)// Function {}
+// console.log(typeof another) //object
+
+
+// let another = Object.create(Function)
+
+// console.log(another)// Function {}
+// console.log(typeof another) //object
+
+
+// let another = Object.create(Object)
+
+// console.log(another)// Function {}
+// console.log(typeof Function) //object
+
+
+//=========================================================== if else
+
+// let age = 12
+
+// if(age >= 18){
+//   console.log("vote")
+// }
+
+
+// if(age >= 18){
+//   console.log("vote")
+// } else{
+//   console.log("minor")
+// }
+
+
+// ladder
+
+// let cat = 33
+
+// if (cat>=90 && cat<= 100){
+//   console.log("cat")
+// } else if (cat>=60 && cat <= 89){
+//   console.log("cat")
+// }
+//  else if (cat>=30 && cat <= 59){
+//   console.log("c")
+// } else if (cat>=0 && cat <= 29){
+//   console.log("f")
+// } else {
+//   console.log("invalid")
+// }
+
+// let ob = {
+//   name : "hotesh" ,
+//   gender : "male" ,
+//   age : 32
+// }
+
+// if (ob.hasOwnProperty("gender")){
+//   if (ob.gender === "male"){
+//     console.log("GUY")
+//   } else {
+//     console.log("NOT GUY")
+//   }
+// } else {
+//   console.log("no gender")
+// }
+
+
+
+// questions
+
+
+// if (a > 0){
+//   console.log("positive")
+// } else if (a<0){
+//   console.log("negative")
+// } else {
+//   console.log("Its neutral , Zero")
+// }
+
+
+
+
+
+// let marks = 34 
+
+// if (marks >= 35 && marks <= 100){
+//   console.log("passed")
+// } else if (marks < 35 && marks >=0){
+//   console.log("failed")
+// } else {
+//   console.log("invalid number")
+// }
+
+
+
+
+
+
+
+
+// // grading
+// if (marks>=90 && marks<= 100){
+//   console.log("marks")
+// } else if (marks>=60 && marks <= 89){
+//   console.log("marks")
+// }
+//  else if (marks>=30 && marks <= 59){
+//   console.log("c")
+// } else if (marks>=0 && marks <= 29){
+//   console.log("f")
+// } else {
+//   console.log("invalid")
+// }
+
+
+
+
+
+
+
+// user.loggedIn = false
+
+// user.role = "Admin"
+
+// if (user.loggedIn){
+//   console.log(`{{$user.role} , ${user.name}}`);
+// }
+
+
+
+
+
+
+// let num = 0;
+
+// let result = num % 2 ==0 ?
+//  num === 0 ? "zero" : "even" 
+// :"odd";
+
+// console.log(result)
+
+
